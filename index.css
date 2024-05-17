@@ -14,36 +14,36 @@ body {
 
 @font-face {
   font-family: "Oswald";
-  src: url("./fonts/oswald/Oswald-ExtraLight.ttf");
+  src: url("/fonts/oswald/Oswald-ExtraLight.ttf");
   font-weight: 200;
 }
 
 @font-face {
   font-family: "Oswald";
-  src: url("./fonts/oswald/Oswald-Light.ttf");
+  src: url("/fonts/oswald/Oswald-Light.ttf");
   font-weight: 300;
 }
 
 @font-face {
   font-family: "Oswald";
-  src: url("./fonts/oswald/Oswald-Regular.ttf");
+  src: url("/fonts/oswald/Oswald-Regular.ttf");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Oswald";
-  src: url("./fonts/oswald/Oswald-Medium.ttf");
+  src: url("/fonts/oswald/Oswald-Medium.ttf");
   font-weight: 500;
 }
 
 @font-face {
   font-family: "Oswald";
-  src: url("./fonts/oswald/Oswald-SemiBold.ttf");
+  src: url("/fonts/oswald/Oswald-SemiBold.ttf");
   font-weight: 600;
 }
 
 @font-face {
   font-family: "Oswald";
-  src: url("./fonts/oswald/Oswald-Bold.ttf");
+  src: url("/fonts/oswald/Oswald-Bold.ttf");
   font-weight: 700;
 }
