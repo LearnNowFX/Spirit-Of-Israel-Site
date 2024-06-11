@@ -19,6 +19,7 @@ export const theme = {
     button: {
       main: "#3C5B6F",
       icon: "#515151",
+      active: "#4683ab",
     },
     icon: {
       main: "#ffffff",

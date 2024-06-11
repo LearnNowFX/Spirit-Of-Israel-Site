@@ -14,6 +14,7 @@ export const useStyles = () =>
       justifyContent: "flex-start",
       paddingBottom: "100px",
     },
+
     title: {
       fontSize: "35px",
       fontWeight: 400,
@@ -29,5 +30,24 @@ export const useStyles = () =>
       flexDirection: "column",
       alignItems: "center",
       justifyContent: "center",
+    },
+    filterButton: ({ isSelected = false }) => ({
+      backgroundColor: isSelected
+        ? theme.palette.button.active
+        : theme.palette.button.main,
+      color: theme.palette.typography.light,
+      padding: "10px",
+      margin: "10px",
+      borderRadius: "5px",
+      cursor: "pointer",
+      textTransform: "uppercase",
+    }),
+    filterContainer: {
+      display: "flex",
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "center",
+      flexWrap: "wrap",
+      marginBottom: "50px",
     },
   });
